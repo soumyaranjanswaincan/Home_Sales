@@ -51,7 +51,7 @@ ORDER BY view_rating DESC
 """
 spark.sql(query).show()
 
-print("--- %s seconds ---" % (time.time() - start_time))
+print("--- %s seconds ---" % (time.time() - start_time)) <br>
 --- 0.6525669097900391  seconds ---
 
 ### A cache of the temporary "home_sales" table is created and validated. 

@@ -71,3 +71,6 @@ p_home_sales.createOrReplaceTempView('p_home_sales_p')
 
 ### The "home_sales" temporary table is uncached and verified. 
 spark.sql("uncache table home_sales")
+
+## References
+Bootcamp Activity modules

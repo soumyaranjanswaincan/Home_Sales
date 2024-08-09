@@ -63,6 +63,9 @@ Runtime: --- 0.4977538585662842  seconds ---
 ### A partition of the home sales dataset by the "date_built" field is created, and the formatted parquet data is read.
 df.write.partitionBy("date_built").mode("overwrite").parquet("home_sales_partitioned")
 
+![image](https://github.com/user-attachments/assets/3f5eea85-cb5f-4c8b-a096-5aafbf7ef499)
+
+
 ### A temporary table of the parquet data is created.
 p_home_sales.createOrReplaceTempView('p_home_sales_p')
 
